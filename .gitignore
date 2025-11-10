@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data (if sensitive, but here it's sample data)
+# data/  # Uncomment if data should be ignored
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Frontend build
+frontend/health-prediction/build/
+frontend/health-prediction/node_modules/
